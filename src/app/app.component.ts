@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'personal-blog';
+  getOutlet(o) {
+    return o.activatedRouteData.routeState;
+}
 }
