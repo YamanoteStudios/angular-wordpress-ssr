@@ -2,8 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { of, Subject, Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
-import { environment } from '../../environments/environment';
-import { IPost } from '../../../post/post.model';
+import { environment } from '../../environments/environment.dev';
+import { IPost } from '../post/post.model';
 const POSTS_URL = 'posts';
 
 @Injectable({
